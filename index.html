@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="assets/main.css"/>
 
   </head>
-
+ <!---
   <body>
 
     <div class="wrapper">
@@ -59,11 +59,36 @@
         </div>
 
       </div>
+    
+    </div> -->
+     <form class="modal" id ="options">
+      <label for="uppercase">Do you want this password to have uppercase ?</label> 
+     <input class="input" placeholder="y or n " type="text" id ="uppercase">
+     <label for="lowercase">Do you want this password to have lowercase ?</label> 
+     <input class="input" placeholder="y or n " type="text" id ="lowercase">
+     <label for="numbers">Do you want this password to have numbers ?</label> 
+     <input class="input" placeholder="y or n " type="text" id ="numbers">
+     <label for="symbols">Do you want this password to have symbols ?</label> 
+     <input class="input" placeholder="y or n " type="text" id ="symbols">
+    <div class="card-body">
 
-    </div>
+      <textarea
+
+        readonly
+
+        id="password"
+
+        placeholder="Your Secure Password"
+
+        aria-label="Generated Password"
+
+      ></textarea>
 
     <script src="assets/script.js"></script>
 
   </body>
+      <button type="submit">generate password</button>
+    </form>
+
   
 </html>

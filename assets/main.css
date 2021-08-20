@@ -1,4 +1,4 @@
-*,
+*/*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -134,4 +134,23 @@ button[disabled] {
   .btn {
     font-size: 0.8rem;
   }
+}
+ */
+ 
+
+
+ .modal{
+  display:flex;
+  flex-direction: column;
+  position:fixed;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+  border: 1px solid red;
+  background-color: white;
+}
+.input{
+  height: 50px;
+  width: 300px;
 }
